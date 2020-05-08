@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+	cout<<"!!!SPEED!!"<<endl;
+	float u,v,a,speed;
+	cout<<"Enter the initial velocity, final velocity and acceleration:"<<endl;
+	cin>>u>>v>>a;
+	speed=(v*v-u*u)/(2*a);
+	cout<<"Speed is:  "<<speed<<endl;
+    return 0;
+}
