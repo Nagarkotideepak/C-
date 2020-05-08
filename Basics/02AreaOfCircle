@@ -1,0 +1,12 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+	cout<<"!!!Area of Circle!!"<<endl;
+	float r,area;
+	cout<<"Enter the Radius of the Circle:"<<endl;
+	cin>>r;
+	area=3.1425f * r * r;//or (float)22/7
+	cout<<"Area of circle is:  "<<area<<endl;
+    return 0;
+}
