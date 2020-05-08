@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+	cout<<"!!!Sum of First n Natural Number!!!"<<endl;
+	int sum,n;
+	cout<<"Enter the terms:"<<endl;
+	cin>>n;
+	sum=n*(n+1)/2;
+	cout<<"Sum of your terms is : "<<sum;
+    return 0;
+}
