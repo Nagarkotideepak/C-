@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+	cout<<"***Area of Triangle***"<<endl;
+	float area,base,height;
+	cout<<"Enter the Base and Height of the Triangle: "<<endl;
+	cin>>base>>height;
+	area=(base*height)/2;
+	cout<<"Area of Triangle is : "<<area;
+    return 0;
+}
