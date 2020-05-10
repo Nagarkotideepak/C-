@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+/* 
+enum is used for defining a group of constants under one name
+that is related constants under one name..
+used in classification of departments,divisions,etc..
+it increases readability
+*/
+enum day {sun,mon,tue,wed,thu,fri,sat};//{sun=0,mon,tue,wed,thu,fri,sat}
+enum month {jan=1,feb,mar,apr,may,jun,july,aug,sep,oct,nov,dev};
+enum dept {cs=1,it,ec=5,mech,bba,bbs,hm
+};
+
+/*
+Typedef is used for defining of our own data type or 
+any idea to some data type so that we can make the program
+more readable.
+*/
+typedef int marks;
+typedef int roll;
+int main(){
+	day d;
+	d=mon;
+	cout<<d<<endl;
+	
+	cout<<mon<<endl;
+	
+	month j;
+	j=jan;
+	cout<<j<<endl;
+	
+	dept c;
+	c=cs;
+	cout<<c;
+	
+	marks m1,m2,m3;
+	m1=90;
+	m2=80;
+	m3=70;
+	
+	roll r1,r2,r3;
+	r1=1;
+	r2=4;
+	r3=8;
+	
+}
