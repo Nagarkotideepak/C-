@@ -1,0 +1,25 @@
+/*
+Conditional Statements
+• If and else is used for writing conditional statement
+• If condition is true then if block is executed
+• If condition is false then else block is executed
+• 0 - means false
+• 1- means true or non0zero value is also true
+If can be nested inside if as well as else statement
+Nesting of is is also written as else-if ladder
+*/
+// Find Maxmum of 2 numbers.
+#include<iostream>
+using namespace std;
+int main(){
+	float a,b;
+	cout<<"Enter two numbers: "<<endl;
+	cin>>a>>b;
+	if(a>b){
+		cout<<"max is "<<a<<endl;
+	}
+	else{
+		cout<<"max is "<<b<<endl;
+	}
+	return 0;
+}
