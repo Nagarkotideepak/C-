@@ -1,0 +1,24 @@
+/*
+WAP to calculate Net salary Program should take the following as input
+i)Basic Salary
+ii)Percentage of Allowances
+iii)Percentage of Deducions
+NetSalary = Basic salary*+Basic Salary* Percentage allowances - Basic Salary*Percentage of Deductions
+*/
+#include<iostream>
+using namespace std;
+int main(){
+	float bs,pa,pd,NetSalary;
+	cout<<"NET SALARY"<<endl;
+	cout<<"Input all your allowances as:"<<endl;
+	cout<<"Basic Salary:"<<endl;
+	cin>>bs;
+	cout<<"Percentage of Allowances: "<<endl;
+	cin>>pa;
+	cout<<"Percentage of Deductions:"<<endl;
+	cin>>pd;
+	NetSalary = bs+bs*pa/100-bs*pd/100;
+	cout<<"Net Salary is : "<<NetSalary;
+	return 0;
+	
+}
