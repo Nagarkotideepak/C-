@@ -1,0 +1,15 @@
+//Working Hour VS Leisure hour
+#include <iostream>
+using namespace std;
+int main(){
+	int hour;
+	cout<<"Enter Hour: ";
+	cin>>hour;
+	if(hour>=9 && hour<=18){
+		cout<<"Working Hours";
+	}
+	else{
+		cout<<"Leisure Hour";
+	}
+	return 0;
+}
