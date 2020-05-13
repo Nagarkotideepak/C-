@@ -1,0 +1,42 @@
+//Switch Case
+/*
+USED IN MENU DRIVEN PROGRAM
+Switch
+• Switch is a branch and control statement
+• Switch can have 0 or more cases
+• Each case is defined with a label
+• Depending on the value of expression in switch corresponding case black is executed
+• Is a case block is not available then default block is executed
+• Default block is optional
+• Every case block must terminate with break
+• If breaks are not mentioned then cases will fall thru
+• Switch is used for menu-driven programs
+*/
+#include<iostream>
+using namespace std;
+int main(){
+	int day;
+	cout<<"Enter day Number: ";
+	cin>>day;
+	switch(day){
+		
+		case 1: cout<<"Mon";
+				break;
+		case 2: cout<<"Tue";
+				break;
+		case 3: cout<<"Wed";
+				break;
+		case 4: cout<<"Thur";
+				break;
+		case 5: cout<<"Fri";
+				break;
+		case 6: cout<<"Sat";
+				break;
+		case 7: cout<<"Sun";
+				break;
+		default: cout<<"Invalid Input";
+				break;
+		
+		
+	}
+}
