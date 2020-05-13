@@ -1,0 +1,20 @@
+//Display Grades
+#include <iostream>
+using namespace std;
+int main(){
+	float eng,nep,sci,math,total,avg;
+	cout<<"Enter the Marks of English,Nepali,Science,Math";
+	cin>>eng>>nep>>sci>>math;
+	total=eng+nep+sci+math;
+	avg=total/4;
+	if(avg>=60){
+		cout<<"A"<<endl;
+	}
+	else if(avg>=35 && avg <600){
+		cout<<"B"<<endl;
+	}
+	else{
+		cout<<"C"<<endl;
+	}
+	return 0;
+}
