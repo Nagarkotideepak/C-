@@ -1,0 +1,21 @@
+//Palindrome
+// 121=>>121
+#include<iostream>
+using namespace std;
+int main(){
+	int n,r,m,rev=0;
+	cout<<"Enter n: ";
+	cin>>n;
+	m=n;
+	 while(n>0){
+	 	r=n%10;
+	 	n/=10;
+	 	rev=rev*10+r;
+	 }
+	 if(rev==m){
+	 	cout<<"Palindrome Number";
+	 }
+	 else
+	 	cout<<"Not a Palindrome.";
+	return 0;
+}
