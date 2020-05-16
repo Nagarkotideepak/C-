@@ -1,0 +1,8 @@
+Arrays
+• Array is a collection of similar data elements under one name, each element is
+accessible using its index
+• Memory for array is allocated contagiously
+• For-each loop is used for accessing array
+• N-dimension arrays are supported by C++
+• Two-Dimensional Arrays are sued for Matrices
+• Array can be created in Stack or Heap Section of memory
