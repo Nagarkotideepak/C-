@@ -1,4 +1,4 @@
-Program to find Sum of all elements in an Array
+//Program to find Sum of all elements in an Array
 #include <iostream>
 using namespace std;
 int main()
@@ -11,7 +11,8 @@ for(int i=0;i<=10;i++)
 }
 
 
-Program to find maximum element from an Array
+
+//Program to find maximum element from an Array
 #include <iostream>
 using namespace std;
 int main()
@@ -28,7 +29,9 @@ for(int i=0;i<=10;i++)
 
 
 
-Program for Linear Search
+
+
+//Program for Linear Search
 #include <iostream>
 using namespace std;
 int main()
