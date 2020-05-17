@@ -1,0 +1,19 @@
+//For each loop
+#include<iostream>
+using namespace std;
+int main(){
+	int A[]={2,4,6,8,10};
+	
+	//For each loop for Array
+	//Modern C++ 11
+	//for(auto or 'data type' x: A)==>> for each x in A
+	
+	for(int x:A){
+		cout<<x<<endl;
+}
+
+char B[]={'A',66,'C',68};
+for(auto x:B)
+	cout<<x<<endl;
+return 0;
+}
