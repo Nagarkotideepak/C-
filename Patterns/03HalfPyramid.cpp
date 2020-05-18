@@ -7,9 +7,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int count=1;
-	for(int i=0;i<4;i++){
-		for(int j=0;j<4;j++){
+	int rows;
+	cout<<"Enter the Number of Rows of Half Pyramid :";
+	cin>>rows;
+	for(int i=0;i<rows;i++){
+		for(int j=0;j<rows;j++){
 			if(i>=j)
 				cout<<"* ";
 		}
