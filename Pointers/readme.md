@@ -1,5 +1,6 @@
 # POINTERS
 *Pointer is a Variable,used for storing the address of data*
-_ Variables are of two types: - _
+
+*Variables are of two types: -*
 * Data Variables
 * Address Variables
