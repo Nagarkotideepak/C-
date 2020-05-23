@@ -28,3 +28,7 @@ __Pointers allow you to refer to the same space in memory from multiple location
 
 **Note:-In C#, Java, this doesnt allow to access as in C and C++ directly, it allows by JVM or through common language runtime .**
 
+## Problems Using Pointers
+1. Uninitialized pointer
+2. Memory Leak
+3. Dangling Pointer
